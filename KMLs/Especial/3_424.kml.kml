@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2"
+     xmlns:kml="http://www.opengis.net/kml/2.2"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+    <name>PTO_ESP_PATIO</name>
+    <open>1</open>
+    <snippet>Created: 17/04/04 11:56:43</snippet>
+    <LookAt>
+      <gx:TimeSpan>
+        <begin>2014-10-08T12:34:18Z</begin>
+        <end>2014-10-08T20:23:09Z</end>
+      </gx:TimeSpan>
+      <longitude>-74.14633755104072</longitude>
+      <latitude>4.634103552626363</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>34105.774198</range>
+    </LookAt>
+    <Style id="s_ylw-pushpin">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.5</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-square.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ff00</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-square-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
+    <Style id="s_ylw-pushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ff00ff00</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="m_ylw-pushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#s_ylw-pushpin</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="s_ylw-pushpin_hl">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LineStyle>
+        <color>ff00ff00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="s_ylw-pushpin_hl0">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.77273</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-square.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff0789f4</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-square-lv.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
+      <StyleMap id="m_ylw-pushpin0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#s_ylw-pushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#s_ylw-pushpin_hl</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>PATIO_1045</name>
+      <styleUrl>#m_ylw-pushpin0</styleUrl>
+      <MultiGeometry>
+           <LineString>
+      <name>1045</name>
+        <coordinates>
+          -74.0589107,4.7504906,0
+-74.0589107,4.7504906,0
+-74.0589107,4.7504906,0
+-74.0585843,4.7518289,0
+-74.0586203,4.7518923,0
+-74.0594316,4.7520019,0
+-74.0594316,4.7520019,0
+-74.0596401,4.75117,0
+-74.0596311,4.7511429,0
+-74.0596131,4.7511248,0
+-74.0595771,4.7511157,0
+-74.0588379,4.7509609,0
+-74.058829,4.7509247,0
+-74.0589107,4.7504906,0
+-74.0589107,4.7504906,0
+-74.0589107,4.7504906,0
+        </coordinates>
+      </LineString>
+       </MultiGeometry>
+    </Placemark>
+      </Document>
+</kml>
+
